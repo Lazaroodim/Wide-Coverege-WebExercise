@@ -43,8 +43,7 @@ button {
 
 button:hover {
     width: 134px;
-    height: 61px;
-    font-size: 22px;
+    font-size: 20px;
     transition: 0.5s ease-in-out;
 }
 
@@ -87,7 +86,7 @@ p {
     font-weight: 400;
     line-height: 33px;
     letter-spacing: 0.5px;
-    margin: 47px 0 55px;
+    margin: 47px 0 55px 0;
     color: #4B505A;
 }
 
@@ -97,11 +96,23 @@ section {
     margin-bottom: 114px;
 }
 
-.link-section {
+.button-learn-more {
     font-size: 18px;
     font-weight: 500;
     line-height: 27px;
     letter-spacing: 1px;
     color: #6FBF44;
     cursor: pointer;
+    background: transparent;
+    border: none;
+}
+
+@media (max-width: 750px) {
+
+    main {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
 }
